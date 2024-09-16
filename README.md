@@ -1,36 +1,96 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+# Hackathon Team Builder
 
-First, run the development server:
+Hackathon Team Builder is a web application designed to help users form and manage teams for hackathons. Built with Next.js, Tailwind CSS, and TypeScript, this project aims to streamline the process of team formation and collaboration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [To-Do](#to-do)
+- [License](#license)
+
+## Features
+
+- User authentication and authorization (To be completed)
+- Team creation and management - done
+- Real-time chat and collaboration (To be completed)
+- Task assignment and tracking - done
+- Integration with popular APIs (e.g., GitHub, Slack) (To be completed)
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/yourusername/hackathon-team-builder.git
+   cd hackathon-team-builder
+   ```
+
+2. Install dependencies:
+
+```npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Here is the project file structure:
+```
+hackathon-team-builder/
+├── app/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── alert.tsx
+│   │   │   ├── button.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── select.tsx
+│   │   ├── HackathonTeamBuilder.tsx
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   ├── styles/
+│   │   ├── globals.css
+│   ├── types/
+│   │   ├── tailwind-merge.d.ts
+├── public/
+│   ├── images/
+│   ├── favicon.ico
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We welcome contributions! Please follow these steps to contribute:
 
-## Learn More
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-feature-branch`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin my-feature-branch`.
+5. Open a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+## To-Do
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+There are several features and integrations that need to be completed. If you are interested in contributing, here are some areas that need attention:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **User Authentication and Authorization**: Implement sign-up and log-in functionality.
+- **Real-time Chat**: Add a real-time chat feature for team communication.
+- **Integration with GitHub and Slack**: Integrate the application with GitHub and Slack for better collaboration.
+- **Firebase Integration**: Set up Firebase for real-time database and authentication.
 
-## Deploy on Vercel
+If you can help with any of these tasks, please contribute! I will finish up these features when my schedule allows.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the [`LICENSE`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Fthabheloduve%2FDesktop%2Fhackathon-team-builder%2FLICENSE%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%2260f1c4e9-eada-43ba-99c1-a085f33ea445%22%5D "/Users/thabheloduve/Desktop/hackathon-team-builder/LICENSE") file for more details.
+```
